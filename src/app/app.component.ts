@@ -9,7 +9,8 @@ import { Item } from './interfaces/iItem';
 })
 export class AppComponent implements OnInit{
   title = 'app-lista-de-compras';
-  ListaDeCompra! : Array<Item>
+  ListaDeCompra! : Array<Item>;
+  ItemParaSerEditado! : Item;
 
    constructor(private listaService: ListaDeCompraService) { }
 
@@ -19,6 +20,6 @@ export class AppComponent implements OnInit{
    }
 
    editarItem(item: Item){
-    console.log(item)
+    this.ItemParaSerEditado = item;
    }
 }
