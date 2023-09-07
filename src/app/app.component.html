@@ -3,7 +3,12 @@
   </app-input>
   <div class="container">
     <div class="lista">
+      <div class="header-lista">
       <h4 class="title-list">Lista de Compras</h4>
+      <button class="btn-header" (click)="limparLista()">
+        <small>Limpar lista</small>
+      </button>
+    </div>
       <div *ngIf="ListaDeCompra.length != 0 ; else naoTemItem">
 
 
