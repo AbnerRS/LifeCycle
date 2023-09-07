@@ -1,27 +1,44 @@
-# LifeCycle
+# LifeCycle - Lista de compras.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+## Formação Alura Angular // Ciclo de Vida dos componentes.
 
-## Development server
+### 🛠 Tecnologias
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-## Code scaffolding
+- Angular 14
+- VSCode 
+- Github
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Boas Práticas
 
-## Build
+- Herança entre classes
+- Identação
+- Versionamento de código
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+##### Features
 
-## Running unit tests
+- [x] Compreender os conceitos de arquitetura do framework
+- [x] Desenvolver CRUD usando o Angular
+- [x] Evoluir a aplicação com novas funcionalidades e refatoração de código
+- [x] Trabalhar com formulários orientados a templates, uso de diretivas e comunicação entre componentes
+- [x] Programar de forma reativa utilizando a biblioteca RxJS
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+##### Aprendizado do Projeto
 
-## Running end-to-end tests
+- [x] Funcionamento do ciclo de vida no Angular;;
+- [x] Como são implementados dentro do componente/diretiva;;
+- [x] Quando o OnInit e o constructor devem ser usados.
+- [x] Implementar o gancho OnChanges;
+- [x] Diferenciar o OnInit do OnChanges;
+- [x] Criar e adicionar novos itens na lista.
+- [x] Passar dados de um componente pai para filho;
+- [x] Emitir um evento carregando informações para o componente pai;
+- [x] Editar itens existentes na lista.
+- [x] Implementar o LocalStorage em uma aplicação Angular;
+- [x] Utilizar o DoCheck para verificar alterações no componente.
+- [x] Trabalhar com o gancho OnDestroy;
+- [x] Entender a importância do uso responsável de memória.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+###### Autor
+- Abner Rodrigues 
